@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block Programming to C++</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Block to C++ Compiler</h1>
+  </header>
+
+  <main>
+    <div id="block-palette" class="palette">
+      <h3>Blocks</h3>
+      <div class="block" draggable="true" data-type="variable">Variable</div>
+      <div class="block" draggable="true" data-type="loop">Loop</div>
+      <div class="block" draggable="true" data-type="condition">Condition</div>
+      <div class="block" draggable="true" data-type="print">Print</div>
+    </div>
+
+    <div id="workspace" class="workspace">
+      <h3>Workspace</h3>
+    </div>
+
+    <div id="code-output" class="output">
+      <h3>Generated C++ Code</h3>
+      <pre id="cpp-code"></pre>
+      <button id="compile-btn">Compile</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
